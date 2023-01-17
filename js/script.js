@@ -13,13 +13,13 @@ $(document).ready(() => {
    //calling xml file
    $.ajax({
       type: 'GET',
-      url: './data/data.xml',
+      url: 'data.xml',
       dataType: 'xml',
       success: funcParseXml,
    });
 
    //calling json file
-   $.getJSON('./data/data.json', (res) => {
+   $.getJSON('data.json', (res) => {
       // console.log(res);
       for (var i = 0; i < res.length; i++) {
          let image = res[i].image;

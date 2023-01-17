@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+
+<servicedata>
+   <details>
+      <image imageurl='./image/services/flood.png'></image>
+      <title>Home Filtration Systems</title>
+      <desc>Gives you pure water throughout the house. It removes all impurities like dirt, mud, sand and other sediments above 5 micron from water right at the source.</desc>
+   </details>
+  <details>
+      <image imageurl='./image/services/002-drink-water.png'></image>
+      <title>Drinking Water Systems</title>
+      <desc>Public drinking water systems use different water treatment methods to provide safe drinking water for their communities. Public water systems often use a series of water treatment steps that include filtration.</desc>
+   </details>
+   <details>
+      <image imageurl='./image/services/water-heater.png'></image>
+      <title>Problem Water Solution</title>
+      <desc>Solutions to addressing water shortages include dams and reservoirs, rainwater harvesting, aqueducts, desalination, water reuse, and water conservation.</desc>
+   </details>
+   <details>
+      <image imageurl='./image/services/water-tap.png'></image>
+      <title>Tap Water Filter</title>
+      <desc>A water filter removes impurities by lowering contamination of water using a fine physical barrier, a chemical process, or a biological process.Filters cleanse water to different extents, for purposes such as: providing agricultural irrigation, accessible drinking water,etc.</desc>
+   </details>
+   <details>
+      <image imageurl='./image/services/001-save-water.png'></image>
+      <title>Shower Water Filter</title>
+      <desc>A shower water filter is bathroom equipment that reduces and removes heavy metals, pesticides, chlorine and other such elements from water. A filter will improve the quality of the water you use while taking a shower and therefore, reduce the chances of skin-related issues.</desc>
+   </details>
+   <details>
+      <image imageurl='./image/services/ph.png'></image>
+      <title>Home Water Test</title>
+      <desc>They checks the presence of heavy metals, dissolved solids and other impurities in the water. For example, the bacteria test kits or a dip slide method can detect presence of bacteria in the water. Before you use them, it is always advisable to study the process well.</desc>
+   </details>
+</servicedata>

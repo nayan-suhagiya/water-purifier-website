@@ -1,0 +1,22 @@
+[
+   {
+      "image": "./image/product/p1.jpg",
+      "title": "Heat Box Wifi",
+      "price": 850
+   },
+   {
+      "image": "./image/product/p2.webp",
+      "title": "XPress And Clean",
+      "price": 945
+   },
+   {
+      "image": "./image/product/p3.webp",
+      "title": "Fitness Plus",
+      "price": 475
+   },
+   {
+      "image": "./image/product/p4.webp",
+      "title": "Alkaline Ultra",
+      "price": 954
+   }
+]

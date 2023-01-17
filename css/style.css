@@ -1,134 +1,136 @@
-*{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+   font-family: 'Jost', sans-serif;
+   letter-spacing: 0.5px;
+   padding: 0;
+   margin: 0;
 }
 
-.nav-link{
-  color: #808080;
+.nav-link {
+   color: #808080;
 }
 
-.nav-item:hover{
-  color: #0d6efd;
-  transition: all 0.8s ease;
+.nav-item:hover {
+   color: #0d6efd;
+   transition: all 0.8s ease;
 }
 
 .nav-links {
-  justify-content: space-around;
+   justify-content: space-around;
 }
 
-.nav-links ul{
-  align-items: center;
+.nav-links ul {
+   align-items: center;
 }
 
-header{
-  width: 100vw;
+header {
+   width: 100vw;
 }
 
 nav {
-  font-weight: 700;
+   font-weight: 700;
 }
 
 .logo {
-  font-size: 25px;
+   font-size: 25px;
 }
 
 nav ul li {
-  padding: 0px 20px;
+   padding: 0px 20px;
 }
 
 nav form {
-  position: absolute;
-  left: 86%;
+   position: absolute;
+   left: 86%;
 }
 
-header{
-  width: 100%;
+header {
+   width: 100%;
 }
 
-.main-first{
-  min-height: 90vh;
-  background-image: url('../images/slider/s2.jpg');
-  background-size: cover;
+.main-first {
+   min-height: 90vh;
+   background-image: url('/image/s2.jpg');
+   background-size: cover;
 }
 
-
-.main-bg img{
-  width: 98.7vw;
-  margin: auto;
-  height: 100vh;
-  opacity: 0.8;
+.main-bg img {
+   width: 98.7vw;
+   margin: auto;
+   height: 100vh;
+   opacity: 0.2;
 }
 
-
-
-.s1-bg img{
-  width: 42vw;
-  height: auto;
-  opacity:  1;
-  margin-top: 18vh;
+.s1-bg img {
+   width: 42vw;
+   height: auto;
+   opacity: 1;
+   margin-top: 18vh;
 }
 
-.main-view{
-  overflow: hidden;
-  position: absolute;
-  top: 34%;
-  margin: auto;
-  left: 0%;
+.main-view {
+   overflow: hidden;
+   position: absolute;
+   top: 34%;
+   margin: auto;
+   left: 0%;
 }
 
-.flexd{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.flexd {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
 }
 
-.change-dir{
-  flex-direction: column;
+.change-dir {
+   flex-direction: column;
 }
 
-.left-main{
-  margin-top: 23vh;
+.left-main {
+   margin-top: 23vh;
 }
 
-.card{
-  max-width: 400px;
-  align-items: center;
+.card {
+   max-width: 400px;
+   align-items: center;
 }
 
-.card p{
-  text-align: center;
+.card p {
+   text-align: center;
 }
 
-.about{
-  background-color: white;
-  border: 0px;
-  padding: 30px;
+.about {
+   background-color: white;
+   border: 0px;
+   padding: 30px;
 }
 
-.about-card{
-  border: 0px;
+.about-card {
+   border: 0px;
 }
 
-.about-img{
-  height: auto;
-  width: 500px;
+.about-img {
+   height: auto;
+   width: 500px;
 }
 
-.footer{
-  background-color: #e4ecf1;
+.footer {
+   background-color: #e4ecf1;
 }
 
-.footer .card{
-  background-color: #e4ecf1;
+.footer .card {
+   background-color: #e4ecf1;
 }
 
-.footer .card p{
-  text-align: justify;
+.footer .card p {
+   text-align: justify;
 }
 
-.footer li{
-  list-style: none;
-  padding:10px 0px;
+.footer li {
+   list-style: none;
+   padding: 10px 0px;
 }
 
 /* hr {
@@ -140,30 +142,30 @@ header{
 } */
 
 hr {
-  margin: 5px 0;
-  color: #1690f0;
-  border: 0;
-  border-top: 4px solid;
-  opacity: 0.5;
-  filter: blur(60);
+   margin: 5px 0;
+   color: #1690f0;
+   border: 0;
+   border-top: 4px solid;
+   opacity: 0.5;
+   filter: blur(60);
 }
 
 hr:not([size]) {
-  height: 2px;
+   height: 2px;
 }
 
-@media (max-width:992px){
-  .about-img{
-    width: 300px;
-  }
+@media (max-width: 992px) {
+   .about-img {
+      width: 300px;
+   }
 }
 
-@media (max-width:660px){
-  .s1-bg img{
-    margin-top: 23px;
-    width: 70vw;
-  }
-  /* .about-img{
+@media (max-width: 660px) {
+   .s1-bg img {
+      margin-top: 23px;
+      width: 70vw;
+   }
+   /* .about-img{
     width: 300px;
   } */
 }
@@ -176,32 +178,32 @@ hr:not([size]) {
 } */
 
 .card .card-title {
-  font-weight: 600;
+   font-weight: 600;
 }
 
 .product-append {
-  background-color: white;
+   background-color: white;
 }
 
 .product-append .card img {
-  height: 250px;
-  width: auto;
+   height: 250px;
+   width: auto;
 }
 
 .product-append .card-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .product-append .card-text span img {
-  height: 20px;
+   height: 20px;
 }
 
 .product-append .card-text {
-  font-size: 30px;
+   font-size: 30px;
 }
 
-.main-heading{
-  color: #0d6efd;
+.main-heading {
+   color: #0d6efd;
 }

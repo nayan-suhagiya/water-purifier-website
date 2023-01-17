@@ -1,224 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script
+         src="https://kit.fontawesome.com/ea98d0f1a1.js"
+         crossorigin="anonymous"
+      ></script>
+      <title>Welcome to Water Purifier</title>
+   </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="./jquery-3.6.0.min.js"></script>
-  <title>Welcome to Water Purifier</title>
+   <body>
+      <header class="bg-light">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand logo" href="index.html"
+                  ><span class="main-heading">Pure</span
+                  ><span class="text-dark">Waters</span></a
+               >
+               <button
+                  class="navbar-toggler border-0 nav-btn"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="31"
+                     height="31"
+                     fill="currentColor"
+                     class="bi bi-filter-right"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                        d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"
+                     />
+                  </svg>
+               </button>
 
-</head>
+               <div
+                  class="collapse navbar-collapse nav-links text-center"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a
+                           class="nav-link"
+                           href="purchase-form.html"
+                           style="color: #0d6efd"
+                           >Purchase Item</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
 
-<body>
-  <header class="bg-light">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-lightbg-light">
-        <a class="navbar-brand logo" href="index.html">Pure<span class="text-dark">Waters</span></a>
-        <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <hr>
-            <hr>
-            <hr>
-          </span>
-        </button>
-
-        <div class="collapse navbar-collapse nav-links text-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="purchase-form.html" style="color: #0d6efd;">Purchase Item</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Main Background -->
-  <div class="main-first">
-    <div class="main-bg text-center">
-
-      <div class="container">
-        <div class="row test">
-          <div class="col-sm-6 left-main">
-            <h1 class="flex-dd change-dir"><span>Pure Water</span> <span style="color: #0d6efd;">Online Shop</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, optio. Vero qui deleniti laboriosam
-              molestiae eveniet incidunt, perspiciatis ad doloremque neque amet iure laudantium. Eum voluptatum aut
-              nostrum necessitatibus numquam?</p>
-            <div class="flexd">
-              <button class="btn btn-primary">Buy Now</button>
-              <button class="btn btn-outline-primary mx-2">Buy Now</button>
+      <!-- Main Background -->
+      <div class="main-first">
+         <div class="main-bg text-center">
+            <div class="container">
+               <div class="row test">
+                  <div class="col-sm-6 left-main">
+                     <h1 class="flex-dd change-dir">
+                        <span>Pure Waters</span>
+                        <span style="color: #0d6efd">Online Shop</span>
+                     </h1>
+                     <p>
+                        Our water quality is certified in several countries (BD,
+                        USA, UK, UAE) due to the purity of the water.
+                     </p>
+                     <p>
+                        Due to the importance of water in our life we give
+                        99.99% pure water to our customers.
+                     </p>
+                     <p>
+                        We serve our water chlorine free to think about clients'
+                        lives since chlorine causes serious damage to our
+                        health.
+                     </p>
+                  </div>
+                  <div class="col-sm-6 right-main">
+                     <div class="s1-bg">
+                        <img src="./image/sp2.png" alt="slider image" />
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-sm-6 right-main">
-            <div class="s1-bg">
+         </div>
+      </div>
 
-              <img src="./images/sp2.png" alt="slider image">
+      <!-- Services  -->
+      <div class="container my-4 text-center p-4">
+         <h2 class="text-center main-heading">Our Services</h2>
+         <div class="row service-append"></div>
+      </div>
+
+      <!-- About -->
+      <div class="container-fluid about my-4">
+         <h1 class="main-heading">About Our Company</h1>
+         <small>Explore More About Us!</small>
+         <div class="row">
+            <div
+               class="col-sm-6 mt-4 text-secondary text-align-left m-auto mt-2"
+            >
+               <p>
+                  Another name for water is life. we want to help you to improve
+                  your water quality.So that you and your family can drink pure,
+                  healthy and safe water. We are trying our best to give you
+                  these services.
+               </p>
+               <p>
+                  For more than 60 years, we have been supplying the indian
+                  homes and offices with high-quality spring water from a
+                  pristine stream near our plant.
+               </p>
+               <p>
+                  We know that as water is the most essential element for all
+                  living beings, not only humans, and you have to take it
+                  regularly, you are searching for the best quality water
+                  consisting of natural PH balance and teste. Without these
+                  criteria, your health may be in danger sooner or later.
+               </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Services  -->
-  <div class="container my-4 text-center shadow-lg p-4">
-    <h2 class="text-center main-heading">Our Services</h2>
-    <div class="row service-append"></div>
-
-
-
-  </div>
-
-  <!-- About -->
-  <div class="container-fluid about my-4">
-    <h1 class="main-heading">About Our Company</h1>
-    <small>Explore More About Us!</small>
-    <div class="row">
-      <div class="col-sm-6 mt-4 text-secondary text-align-left m-auto">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae aspernatur ipsam impedit corporis voluptate.
-          Tempore, at inventore culpa nulla nesciunt repudiandae. Ratione assumenda ea fuga quasi quae nesciunt cumque
-          temporibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cumque ut rerum voluptas ullam dolores
-          similique, consequuntur vitae aspernatur at soluta vel itaque fuga asperiores odit ab quam obcaecati ipsa
-          modi, perspiciatis sint! Officia molestias exercitationem necessitatibus, consequatur repudiandae iure
-          reiciendis vero corporis et eos magni veritatis. Quasi, quaerat cupiditate.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, cumque? Aut voluptas ab dolores, dolore
-          mollitia totam sed molestiae necessitatibus.</p>
-      </div>
-      <div class="col-sm-6 mt-4 m-auto">
-        <div class="card about-card" style="max-width: 600px;">
-          <img src="./images/sp1.jpg" alt="filter image" class="about-img">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Products -->
-  <div class="container shadow-lg my-4">
-    <h1 class="text-center main-heading my-2">Our Products</h1>
-    <div class="row product-append"></div>
-
-  </div>
-
-   <!-- Other Services -->
-   <div class="container my-4 shadow-lg text-center p-4">
-    <h1 class="main-heading">We Work To Offer The Best</h1>
-    <h2 class="main-heading">Customer Service!</h2>
-    <div class="row">
-
-      <div class="card col-sm-4 mt-3 border-0">
-        <div style="width: 20%;">
-
-          <img src="./assets_external/phone.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Our online store is always open to customers who prefer to drink quality spring water.You can also order water products via our partners' website.</p>
-        </div>
-      </div>
-
-      <div class="card col-sm-4 mt-3 border-0">
-        <div style="width: 20%;">
-
-          <img src="./assets_external/deliver.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Online Ordering</h5>
-          <p class="card-text">If you place more than 6 bottels of our water we will deliver it to your home or office for free.This offer applies only to online orders place till 8 pm.</p>
-        </div>
-      </div>
-
-      <div class="card col-sm-4 mt-3 border-0">
-        <div style="width: 20%;">
-
-          <img src="./assets_external/like.png" class="card-img-top" alt="...">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Friendly Managers</h5>
-          <p class="card-text">Our team of Friendly managers is always read to help you choose and order the best sparkling or spring water. Feel free to contact us for more information</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Footer -->
-  <div class="container-fluid  footer my-4">
-    <div class="row p-4">
-
-      <div class="col-sm-4 ">
-        <div class="card border-0">
-          <h5>About And Address</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque dolores corrupti iure voluptas eveniet
-            exercitationem magni sunt quisquam dolore. Mollitia neque cum inventore ullam amet, facere ad autem sed
-            quasi?</p>
-          <p style="text-align: left;">23 Rose Stren Melbourn
-            sales@smarteyeapps.com
-            +91 876 766 554</p>
-        </div>
-      </div>
-
-      <div class="col-sm-3 ">
-        <div class="card border-0">
-          <h5>Top Category</h5>
-          <ul>
-            <li>Target Statergy</li>
-            <li>Web Analytics</li>
-            <li>Page Monitering</li>
-            <li>Page Optimization</li>
-            <li>Email Marketing</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-sm-5">
-        <div>
-          <h5>Post Comment</h5>
-          <form>
-            <div class="form-group">
-
-              <input placeholder="Enter your name..." type="text" name="name" class="form-control">
+            <div class="col-sm-6 mt-4 m-auto">
+               <div class="card about-card" style="max-width: 600px">
+                  <img
+                     src="./image/sp1.jpg"
+                     alt="filter image"
+                     class="about-img"
+                  />
+               </div>
             </div>
-            <div class="form-group my-2">
-              <textarea placeholder="Write comment here..." name="comment" id="comment" cols="30" rows="5"
-                class="form-control"></textarea>
-            </div>
-            <div class="form-group" style="text-align: right;">
-              <button class="btn btn-secondary" type="button">Post Comment</button>
-            </div>
-          </form>
-        </div>
-
+         </div>
       </div>
 
-    </div>
-    <footer class="bg-white text-center mt-2">
-      2022 © All Rights Reserved | Designed and Developed by purewater.com
-    </footer>
-  </div>
-</body>
+      <!-- Products -->
+      <div class="container shadow-lg my-4">
+         <h1 class="text-center main-heading my-2">Our Products</h1>
+         <div class="row product-append"></div>
+      </div>
 
+      <!-- Other Services -->
+      <div class="container my-4 text-center p-4">
+         <h1 class="main-heading">We Work To Offer The Best</h1>
+         <h2 class="main-heading">Customer Service!</h2>
+         <div class="row">
+            <div class="card col-sm-4 mt-3 border-0">
+               <div style="width: 20%">
+                  <img src="./image/phone.png" class="card-img-top" alt="..." />
+               </div>
+               <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                     Our online store is always open to customers who prefer to
+                     drink quality spring water.You can also order water
+                     products via our partners' website.
+                  </p>
+               </div>
+            </div>
+
+            <div class="card col-sm-4 mt-3 border-0">
+               <div style="width: 20%">
+                  <img
+                     src="./image/deliver.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+               </div>
+               <div class="card-body">
+                  <h5 class="card-title">Online Ordering</h5>
+                  <p class="card-text">
+                     If you place more than 6 bottels of our water we will
+                     deliver it to your home or office for free.This offer
+                     applies only to online orders place till 8 pm.
+                  </p>
+               </div>
+            </div>
+
+            <div class="card col-sm-4 mt-3 border-0">
+               <div style="width: 20%">
+                  <img src="./image/like.png" class="card-img-top" alt="..." />
+               </div>
+               <div class="card-body">
+                  <h5 class="card-title">Friendly Managers</h5>
+                  <p class="card-text">
+                     Our team of Friendly managers is always read to help you
+                     choose and order the best sparkling or spring water. Feel
+                     free to contact us for more information
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="container-fluid footer my-4">
+         <div class="row p-4">
+            <div class="col-sm-4">
+               <div class="card border-0">
+                  <h5 class="text-decoration-underline">About And Address</h5>
+                  <p>
+                     Water is one of the leading spring water providers in the
+                     USA. We bottle and deliver bacteria-free spring water
+                     throughout the country covering all water needs and tastes.
+                     We are proud to be the nation’s #1 water provider!
+                  </p>
+                  <p style="text-align: left">
+                     <span
+                        ><span class="text-secondary">Address : </span> 12,New
+                        bombay colony road,juhu,mumbai-362251</span
+                     ><br />
+                     <span
+                        ><span class="text-secondary">Email : </span>
+                        info@purewaters.com</span
+                     ><br />
+                     <span
+                        ><span class="text-secondary">Contact : </span> +91 874
+                        717 4102</span
+                     >
+                  </p>
+               </div>
+            </div>
+
+            <div class="col-sm-3">
+               <div class="card border-0">
+                  <h5 class="text-decoration-underline">Useful links</h5>
+                  <ul style="display: flex; flex-direction: column">
+                     <li>
+                        <i class="fa-solid fa-link main-heading"></i
+                        ><a class="p-2" href="/about.html">About</a>
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-link main-heading"></i
+                        ><a class="p-2" href="/contact.html">Contact</a>
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-link main-heading"></i
+                        ><a class="p-2" href="/services.html">Services</a>
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-link main-heading"></i
+                        ><a class="p-2" href="/product.html">Products</a>
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-link main-heading"></i
+                        ><a class="p-2" href="/purchase-form.html">Purchase </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-sm-5">
+               <div>
+                  <h5 class="text-decoration-underline">Post Comment</h5>
+                  <form>
+                     <div class="form-group">
+                        <input
+                           placeholder="Enter your name..."
+                           type="text"
+                           name="name"
+                           class="form-control"
+                        />
+                     </div>
+                     <div class="form-group my-2">
+                        <textarea
+                           placeholder="Write comment here..."
+                           name="comment"
+                           id="comment"
+                           cols="30"
+                           rows="5"
+                           class="form-control"
+                        ></textarea>
+                     </div>
+                     <div class="form-group" style="text-align: right">
+                        <button class="btn btn-secondary" type="button">
+                           Post Comment
+                        </button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <footer class="text-center mt-2">
+            2023 © All Rights Reserved | Designed and Developed by
+            purewaters.com
+         </footer>
+      </div>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+         crossorigin="anonymous"
+      ></script>
+   </body>
 </html>
 
-
 <script src="./js/script.js"></script>
+<script
+   src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+   crossorigin="anonymous"
+></script>
+<script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+   integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+   crossorigin="anonymous"
+></script>

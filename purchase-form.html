@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Purchase Form</title>
+   <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css" />
+   <script src="./jquery-3.6.0.min.js"></script>
+   <link rel="stylesheet" href="/css/page.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <script src="./js/script.js"></script>
+</head>
+
+<body>
+   <header class="bg-light">
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-lightbg-light">
+            <a class="navbar-brand logo" href="index.html">Pure<span class="text-dark">Waters</span></a>
+            <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse"
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon">
+                  <hr>
+                  <hr>
+                  <hr>
+               </span>
+            </button>
+
+            <div class="collapse navbar-collapse nav-links text-center" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="product.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="purchase-form.html" style="color: #0d6efd;">Purchase Item</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <div class="container-fluid">
+      <div class="container p-4">
+         <h3 class="p-4">Purchase our product</h3>
+         <span class="p-4">
+            <span>
+               <img src="./house.svg" alt="" height="17px" /> Home
+            </span>
+            <span>
+               <img src="./chevron-double-right.svg" height="20px" alt="" />
+               Purchase Products
+            </span></span>
+      </div>
+   </div>
+   <div class="container my-4">
+
+      <div class="row ">
+         <div class="col-sm-12 col-md-6 product my-3 ">
+            <div class="product-part1">
+               <div class="set-product">
+                  <img src="./product/p1.jpg" alt="product img" title="Heat Box Wifi" />
+                  <span class="mt-2">Heat Box Wifi</span>
+               </div>
+               <div class="set-product">
+                  <img src="./product/p2.webp" alt="product img" title="XPress And Clean" />
+                  <span class="mt-2">XPress And Clean</span>
+               </div>
+            </div>
+            <div class="product-part2">
+               <div class="set-product">
+                  <img src="./product/p4.webp" alt="product img" title="Alkaline Ultra" />
+                  <span class="mt-2">Alkaline Ultra</span>
+               </div>
+               <div class="set-product">
+                  <img src="./product/p3.webp" alt="product img" title="Fitness Plus" />
+                  <span class="mt-2">Fitness Plus</span>
+               </div>
+            </div>
+         </div>
+         <!-- =============== -->
+         <div class="col-sm-12 col-md-6 order-last">
+            <form>
+               <div class="form-group my-4">
+                  <!-- <label for="name" class="form-label">Enter name :</label> -->
+                  <input required type="text" id="name" class="form-control" placeholder="Enter your name" />
+               </div>
+               <div class="form-group my-4">
+                  <!-- <label for="mobile" class="form-label">Enter mobile :</label> -->
+                  <input required type="number" id="mobile" class="form-control" placeholder="Enter mobile number" />
+               </div>
+               <div class="form-group my-4">
+                  <!-- <label for="email" class="form-label">Enter email :</label> -->
+                  <input required type="email" id="email" class="form-control" placeholder="Enter your email" />
+               </div>
+               <div class="form-group my-4">
+                  <!-- <label for="product_name">Select Product : </label> -->
+                  <select id="product_name" name="product_name" class="form-control" required>
+                     <option value="">Select Product</option>
+                     <option value="heatbox">Heat Box Wifi</option>
+                     <option value="xpress">XPress And Clean</option>
+                     <option value="fitness">Fitness Plus</option>
+                     <option value="alkaline">Alkaline Ultra</option>
+                  </select>
+               </div>
+               <div class="form-group my-4">
+                  <!-- <label class="form-label" for="quantity">Enter quantity :</label> -->
+                  <input required type="number" class="form-control" name="quantity" id="quantity"
+                     placeholder="Enter quantity" />
+               </div>
+               <div class="form-group">
+                  <!-- <label for="address" class="form-label">Enter delivery address :
+                  </label> -->
+                  <textarea required name="address" id="address" cols="30" rows="5" class="form-control"
+                     placeholder="Enter delivery address..."></textarea>
+               </div>
+               <div class="form-group my-4">
+                  <div class="alert alert-danger dalert">
+                     Please validate all details!
+                  </div>
+                  <div class="alert alert-success salert">
+                     Successfully placed order!
+                  </div>
+               </div>
+               <div class="form-group mt-2 text-center">
+                  <button class="btn btn-success" type="button" id="formsub">
+                     Purchase
+                  </button>
+                  <button class="btn btn-danger mx-4" type="reset">
+                     Reset
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
+
+<script>
+   $(document).ready(() => {
+      $('.dalert').hide();
+      $('.salert').hide();
+
+      $('#formsub').click(() => {
+         let name = $('#name').val();
+         let email = $('#email').val();
+         let mobile = $('#mobile').val();
+         let product_name = $('#product_name').val();
+         let quantity = $('#quantity').val();
+         let address = $('#address').val();
+
+         if (
+            name == '' ||
+            email == '' ||
+            mobile == '' ||
+            product_name == '' ||
+            quantity == 0 ||
+            address == ''
+         ) {
+            $('.dalert').show();
+            setTimeout(() => {
+               $('.dalert').hide();
+            }, 2000);
+         } else {
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('mobile').value = '';
+            document.getElementById('product_name').value = '';
+            document.getElementById('quantity').value = '';
+            document.getElementById('address').value = '';
+
+            $('.salert').show();
+            setTimeout(() => {
+               $('.salert').hide();
+            }, 2000);
+         }
+      });
+   });
+</script>

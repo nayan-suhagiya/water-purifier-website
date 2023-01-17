@@ -1,0 +1,207 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link{
+  color: #808080;
+}
+
+.nav-item:hover{
+  color: #0d6efd;
+  transition: all 0.8s ease;
+}
+
+.nav-links {
+  justify-content: space-around;
+}
+
+.nav-links ul{
+  align-items: center;
+}
+
+header{
+  width: 100vw;
+}
+
+nav {
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav form {
+  position: absolute;
+  left: 86%;
+}
+
+header{
+  width: 100%;
+}
+
+.main-first{
+  min-height: 90vh;
+  background-image: url('../images/slider/s2.jpg');
+  background-size: cover;
+}
+
+
+.main-bg img{
+  width: 98.7vw;
+  margin: auto;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+
+
+.s1-bg img{
+  width: 42vw;
+  height: auto;
+  opacity:  1;
+  margin-top: 18vh;
+}
+
+.main-view{
+  overflow: hidden;
+  position: absolute;
+  top: 34%;
+  margin: auto;
+  left: 0%;
+}
+
+.flexd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.change-dir{
+  flex-direction: column;
+}
+
+.left-main{
+  margin-top: 23vh;
+}
+
+.card{
+  max-width: 400px;
+  align-items: center;
+}
+
+.card p{
+  text-align: center;
+}
+
+.about{
+  background-color: white;
+  border: 0px;
+  padding: 30px;
+}
+
+.about-card{
+  border: 0px;
+}
+
+.about-img{
+  height: auto;
+  width: 500px;
+}
+
+.footer{
+  background-color: #e4ecf1;
+}
+
+.footer .card{
+  background-color: #e4ecf1;
+}
+
+.footer .card p{
+  text-align: justify;
+}
+
+.footer li{
+  list-style: none;
+  padding:10px 0px;
+}
+
+/* hr {
+  color: blue;
+  background-color: currentColor;
+  border: 0;
+  opacity: 100;
+  margin: 6px 0px;
+} */
+
+hr {
+  margin: 5px 0;
+  color: #1690f0;
+  border: 0;
+  border-top: 4px solid;
+  opacity: 0.5;
+  filter: blur(60);
+}
+
+hr:not([size]) {
+  height: 2px;
+}
+
+@media (max-width:992px){
+  .about-img{
+    width: 300px;
+  }
+}
+
+@media (max-width:660px){
+  .s1-bg img{
+    margin-top: 23px;
+    width: 70vw;
+  }
+  /* .about-img{
+    width: 300px;
+  } */
+}
+
+/*load data css*/
+
+/* .card img {
+  width: 100px;
+  margin: auto;
+} */
+
+.card .card-title {
+  font-weight: 600;
+}
+
+.product-append {
+  background-color: white;
+}
+
+.product-append .card img {
+  height: 250px;
+  width: auto;
+}
+
+.product-append .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-append .card-text span img {
+  height: 20px;
+}
+
+.product-append .card-text {
+  font-size: 30px;
+}
+
+.main-heading{
+  color: #0d6efd;
+}

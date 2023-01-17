@@ -1,5 +1,5 @@
 .cf-bg {
-   height: 28vh;
+   height: 170px;
    background-color: #eaeaea;
 }
 iframe {
@@ -31,16 +31,6 @@ iframe {
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-}
-
-.product-part1 img {
-   width: 150px;
-   height: auto;
-}
-
-.product-part2 img {
-   width: 150px;
-   height: auto;
 }
 
 .set-product {

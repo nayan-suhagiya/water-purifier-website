@@ -1,4 +1,6 @@
 $(document).ready(() => {
+   getxmlheader();
+   getxmlfooter();
    $('.test').hide();
 
    setTimeout(() => {
@@ -26,7 +28,7 @@ $(document).ready(() => {
          let title = res[i].title;
          let price = res[i].price;
          $('.product-append').append(
-            '<div class="col-sm-6 col-md-4 col-lg-3 mt-4">' +
+            '<div class="col-sm-6 shadow-lg col-md-4 col-lg-3 mt-4">' +
                '<div class="card  text-center p-4 border-0">' +
                '<img src="' +
                image +
@@ -72,7 +74,7 @@ function funcParseXml(xml) {
                '<h5 class="card-title">' +
                title +
                '</h5>' +
-               '<p class="card-text">' +
+               '<p class="card-text mt-4">' +
                desc +
                '</p>' +
                '</div>' +
@@ -80,4 +82,27 @@ function funcParseXml(xml) {
                '</div>'
          );
       });
+}
+
+function getxmlheader() {
+   let xmlhttp = new XMLHttpRequest();
+   xmlhttp.onload = function () {
+      // console.log(this.responseText);
+      let data = this.responseText;
+      $('header').append(data);
+   };
+
+   xmlhttp.open('GET', './header.xml');
+   xmlhttp.send();
+}
+
+function getxmlfooter() {
+   let xmlhttp = new XMLHttpRequest();
+   xmlhttp.onload = function () {
+      let data = this.responseText;
+      $('.footer').append(data);
+   };
+
+   xmlhttp.open('GET', './footer.xml');
+   xmlhttp.send();
 }

@@ -69,7 +69,7 @@ $(document).ready(() => {
       `
       <div class="row p-4">
          <div class="col-sm-4">
-            <div class="card border-0">
+            <div class=" border-0">
                <h5 class="text-decoration-underline">About And Address</h5>
             <p>
                Water is one of the leading spring water providers in the
@@ -95,7 +95,7 @@ $(document).ready(() => {
       </div>
 
       <div class="col-sm-3">
-      <div class="card border-0">
+      <div class=" border-0">
       <h5 class="text-decoration-underline">Useful links</h5>
       <ul style="display: flex; flex-direction: column">
          <li>

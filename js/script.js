@@ -65,7 +65,8 @@ $(document).ready(() => {
       `
    );
 
-   $('.footer').append(`
+   $('.footer').append(
+      `
       <div class="row p-4">
          <div class="col-sm-4">
             <div class="card border-0">
@@ -155,7 +156,8 @@ $(document).ready(() => {
       <footer class="text-center mt-2">
       202 © All Rights Reserved | Designed and Developed by purewaters.com
       </footer>
-         `);
+         `
+   );
 
    $('.test').hide();
 

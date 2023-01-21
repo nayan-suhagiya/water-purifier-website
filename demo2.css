@@ -1,7 +1,6 @@
 ﻿/* ---------------- For Animation on Scroll ---------------- */
 .slideanim {
    visibility: hidden;
-   visibility: visible\9; /*For old IE browsers IE6-8 */
 }
 .slideanim.slide {
    visibility: visible;
@@ -17,10 +16,10 @@
 @keyframes slide {
    0% {
       opacity: 0;
-      transform: translateX(50%);
+      transform: translateY(50%);
    }
    100% {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateY(0);
    }
 }

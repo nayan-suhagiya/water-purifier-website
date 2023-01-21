@@ -186,7 +186,7 @@ $(document).ready(() => {
          let title = res[i].title;
          let price = res[i].price;
          $('.product-append').append(
-            '<div class="col-sm-6 shadow-lg col-md-4 col-lg-3 mt-4">' +
+            '<div class="col-sm-6 slideanim shadow-lg col-md-4 col-lg-3 mt-4">' +
                '<div class="card  text-center p-4 border-0">' +
                '<img src="' +
                image +
@@ -223,7 +223,7 @@ function funcParseXml(xml) {
          let title = $(this).find('title').text();
          let desc = $(this).find('desc').text();
          $('.service-append').append(
-            '<div class="col-sm-6 col-md-6 col-lg-4 mt-4">' +
+            '<div class="col-sm-6 col-md-6 col-lg-4 slideanim mt-4">' +
                '<div class="card shadow-lg text-center p-4">' +
                '<img src="' +
                imageurl +

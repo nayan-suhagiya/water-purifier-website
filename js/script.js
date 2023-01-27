@@ -252,7 +252,7 @@ xmlhttp.open('GET', 'data1.xml', false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
 
-console.log(xmlDoc);
+// console.log(xmlDoc);
 
 otherService = document.getElementById('otherService');
 

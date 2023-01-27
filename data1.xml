@@ -2,17 +2,17 @@
 
 <otherService>
    <data>
-      <img>./image/phone.png</img>
+      <img>../image/phone.png</img>
       <title>Online Ordering</title>
       <desc>Our online store is always open to customers who prefer to drink quality spring water. You can also order Water products via our partners’ websites.</desc>
    </data>
    <data>
-      <img>./image/deliver.png</img>
+      <img>../image/deliver.png</img>
       <title>Free Delivery</title>
       <desc>If your order more than 6 bottles of our water we will deliver it to your home or office for free. This offer applies only to online orders placed till 8 PM.</desc>
    </data>
    <data>
-      <img>./image/like.png</img>
+      <img>../image/like.png</img>
       <title>Friendly Managers</title>
       <desc>Our team of friendly managers is always ready to help you choose and order the best sparkling or spring water. Feel free to contact us for more information.</desc>
    </data>

@@ -241,3 +241,43 @@ function funcParseXml(xml) {
          );
       });
 }
+
+if (window.XMLHttpRequest) {
+   xmlhttp = new XMLHttpRequest();
+} else {
+   xmlhttp = new ActiveXObject();
+}
+
+xmlhttp.open('GET', 'data1.xml', false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML;
+
+console.log(xmlDoc);
+
+otherService = document.getElementById('otherService');
+
+for (i = 0; i < xmlDoc.getElementsByTagName('data').length; i++) {
+   otherService.innerHTML += otherSer(i);
+}
+
+function otherSer(i) {
+   return `
+   <div class="card col-sm-4 slideanim mt-3 border-0">
+   <div style="width: 20%">
+      <img
+         src="${xmlDoc.getElementsByTagName('img')[i].childNodes[0].nodeValue}"
+         class="card-img-top"
+         alt="..."
+      />
+   </div>
+   <div class="card-body">
+      <h5 class="card-title">${
+         xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue
+      }</h5>
+      <p class="card-text">
+         ${xmlDoc.getElementsByTagName('desc')[i].childNodes[0].nodeValue}
+      </p>
+   </div>
+</div>
+   `;
+}
